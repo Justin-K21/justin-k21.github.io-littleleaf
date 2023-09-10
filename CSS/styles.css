@@ -10,6 +10,11 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+.img-pad {
+  padding: 25px;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -4738,7 +4743,8 @@ fieldset:disabled .btn {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 2px solid rgba(0, 0, 0, 0.125);
+  margin-bottom: 30px;
 }
 .card > hr {
   margin-right: 0;
@@ -4817,10 +4823,6 @@ fieldset:disabled .btn {
 .card-img-top,
 .card-img-bottom {
   display: block;
-  max-width: 400px;
-  max-height: 200px;
-  width: auto;
-  height: auto;
   margin-left: auto;
   margin-right: auto;
 }
